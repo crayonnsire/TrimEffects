@@ -2,5 +2,5 @@ name: TrimEffects
 version: 1.0.0
 main: me.yourname.trimeffects.TrimEffects
 api-version: 1.20
-description: Grants configurable buffs based on armor trims (any-piece counts)
 author: rooves
+description: Gives buffs based on armor trims
