@@ -1,6 +1,6 @@
 name: TrimEffects
-version: 1.0.0
 main: me.yourname.trimeffects.TrimEffects
-api-version: 1.20
+version: 1.0.0
+api-version: '1.21'
 author: rooves
-description: Gives buffs based on armor trims
+description: Gives configurable potion buffs when you wear any piece with that trim.
