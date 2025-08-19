@@ -1,19 +1,80 @@
+settings:
+  tick_interval: 40         # ticks between refreshes (20 ticks = 1 second)
+  effect_duration: 80       # ticks for each applied effect
+
+# Configure each vanilla trim here.
+# effect: name of a Bukkit/Paper PotionEffectType (case-insensitive).
+# amplifier: 0 means level I, 1 = level II, etc.
 trims:
-  sentry: SPEED
-  dune: STRENGTH
-  coast: HASTE
-  wild: NIGHT_VISION
-  silence: HEALTH_BOOST
-  rib: SPEED
-  eye: NIGHT_VISION
-  snout: STRENGTH
-  tide: HASTE
-  ward: HEALTH_BOOST
-  spire: SPEED
-  vex: HASTE
-  wayfinder: NIGHT_VISION
-  raiser: STRENGTH
-  shaper: SPEED
-  host: NIGHT_VISION
-  dune: HASTE
-  silence: HEALTH_BOOST
+  sentry:
+    enabled: true
+    effect: DAMAGE_RESISTANCE
+    amplifier: 0
+  dune:
+    enabled: true
+    effect: REGENERATION
+    amplifier: 0
+  coast:
+    enabled: true
+    effect: DOLPHINS_GRACE
+    amplifier: 0
+  wild:
+    enabled: true
+    effect: JUMP
+    amplifier: 0
+  ward:
+    enabled: true
+    effect: NIGHT_VISION
+    amplifier: 0
+  eye:
+    enabled: true
+    effect: ABSORPTION
+    amplifier: 0
+  vex:
+    enabled: true
+    effect: SPEED
+    amplifier: 0
+  tide:
+    enabled: true
+    effect: WATER_BREATHING
+    amplifier: 0
+  snout:
+    enabled: true
+    effect: INCREASE_DAMAGE     # (alias: STRENGTH)
+    amplifier: 0
+  rib:
+    enabled: true
+    effect: FIRE_RESISTANCE
+    amplifier: 0
+  spire:
+    enabled: true
+    effect: SLOW_FALLING
+    amplifier: 0
+  silence:
+    enabled: true
+    effect: INVISIBILITY
+    amplifier: 0
+  wayfinder:
+    enabled: true
+    effect: LUCK
+    amplifier: 0
+  raiser:
+    enabled: true
+    effect: HEALTH_BOOST
+    amplifier: 0
+  shaper:
+    enabled: true
+    effect: FAST_DIGGING        # (alias: HASTE)
+    amplifier: 0
+  host:
+    enabled: true
+    effect: RESISTANCE          # alias for DAMAGE_RESISTANCE
+    amplifier: 0
+  flow:
+    enabled: true
+    effect: SPEED
+    amplifier: 1
+  bolt:
+    enabled: true
+    effect: CONDUIT_POWER
+    amplifier: 0
