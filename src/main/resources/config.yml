@@ -1,61 +1,19 @@
-settings:
-  tick_interval: 40
 trims:
-  sentry:
-    enabled: true
-    resistance_level: 0
-  dune:
-    enabled: true
-    food_bump: 1
-    saturation_bump: 0.5
-  coast:
-    enabled: true
-  wild:
-    enabled: true
-    jump_level: 0
-  ward:
-    enabled: true
-    under_y: 40
-    night_vision_level: 0
-    night_vision_duration: 300
-  eye:
-    enabled: true
-    weakness_chance: 0.05
-    weakness_level: 0
-    weakness_duration: 100
-  vex:
-    enabled: true
-    speed_level: 0
-  tide:
-    enabled: true
-  snout:
-    enabled: true
-    strength_level: 0
-    require_melee: true
-  rib:
-    enabled: true
-  spire:
-    enabled: true
-  silence:
-    enabled: true
-    sneak_damage_multiplier: 1.10
-  wayfinder:
-    enabled: true
-    luck_level: 0
-  raiser:
-    enabled: true
-    max_health_bonus: 1.0
-  shaper:
-    enabled: true
-    haste_level: 0
-  host:
-    enabled: true
-    untargetable_chance: 0.10
-  flow:
-    enabled: true
-    sprint_speed_level: 1
-    sprint_duration: 60
-  bolt:
-    enabled: true
-    chance: 0.02
-    fire_ticks: 60
+  sentry: SPEED
+  dune: STRENGTH
+  coast: HASTE
+  wild: NIGHT_VISION
+  silence: HEALTH_BOOST
+  rib: SPEED
+  eye: NIGHT_VISION
+  snout: STRENGTH
+  tide: HASTE
+  ward: HEALTH_BOOST
+  spire: SPEED
+  vex: HASTE
+  wayfinder: NIGHT_VISION
+  raiser: STRENGTH
+  shaper: SPEED
+  host: NIGHT_VISION
+  dune: HASTE
+  silence: HEALTH_BOOST
